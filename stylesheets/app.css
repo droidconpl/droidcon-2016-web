@@ -4517,8 +4517,16 @@ button.swiper-pagination-bullet {
   }
 }
 
-#copyright {
-  text-aligh: center;
+#footer-section {
+  background-color: #4d4d4d;
+  color: #eeedec;
+  text-align: center;
+  font-family: "nerislight", Helvetica, Arial, sans-serif;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @import '../assets/webfonts/fonts.css';
