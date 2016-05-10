@@ -4517,6 +4517,10 @@ button.swiper-pagination-bullet {
   }
 }
 
+#copyright {
+  text-aligh: center;
+}
+
 @import '../assets/webfonts/fonts.css';
 html,
 body {
