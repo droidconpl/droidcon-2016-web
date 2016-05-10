@@ -4517,29 +4517,7 @@ button.swiper-pagination-bullet {
   }
 }
 
-/*import fontu Roboto z google*/
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
-@font-face {
-  font-family: 'nerissemibold';
-  src: url("../webfonts/neris-fontfacekit/neris_semibold_macroman/Neris-SemiBold-webfont.eot");
-  src: url("../webfonts/neris-fontfacekit/neris_semibold_macroman/Neris-SemiBold-webfont.eot?#iefix") format('embedded-opentype'), url("../webfonts/neris-fontfacekit/neris_semibold_macroman/Neris-SemiBold-webfont.woff") format('woff'), url("../webfonts/neris-fontfacekit/neris_semibold_macroman/Neris-SemiBold-webfont.ttf") format('truetype'), url("../webfonts/neris-fontfacekit/neris_semibold_macroman/Neris-SemiBold-webfont.svg#nerissemibold") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'nerisblack';
-  src: url("../webfonts/neris-fontfacekit/neris_black_macroman/Neris-Black-webfont.eot");
-  src: url("../webfonts/neris-fontfacekit/neris_black_macroman/Neris-Black-webfont.eot?#iefix") format('embedded-opentype'), url("../webfonts/neris-fontfacekit/neris_black_macroman/Neris-Black-webfont.woff") format('woff'), url("../webfonts/neris-fontfacekit/neris_black_macroman/Neris-Black-webfont.ttf") format('truetype'), url("../webfonts/neris-fontfacekit/neris_black_macroman/Neris-Black-webfont.svg#nerisblack") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'nerislight';
-  src: url("../webfonts/neris-fontfacekit/neris_light_macroman/Neris-Light-webfont.eot");
-  src: url("../webfonts/neris-fontfacekit/neris_light_macroman/Neris-Light-webfont.eot?#iefix") format('embedded-opentype'), url("../webfonts/neris-fontfacekit/neris_light_macroman/Neris-Light-webfont.woff") format('woff'), url("../webfonts/neris-fontfacekit/neris_light_macroman/Neris-Light-webfont.ttf") format('truetype'), url("../webfonts/neris-fontfacekit/neris_light_macroman/Neris-Light-webfont.svg#nerislight") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import '../assets/webfonts/fonts.css';
 html,
 body {
   margin: 0;
@@ -4554,7 +4532,7 @@ body {
   padding: 13px 25px;
   background-color: #6eb300;
   color: #fff;
-  font-family: 'nerissemibold';
+  font-family: 'nerissemibold', sans-serif;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
