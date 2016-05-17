@@ -4668,6 +4668,10 @@ body {
   #join-us-section .when-where {
     margin-top: 20px;
     max-width: 350px;
+    float: right;
+  }
+  #join-us-section .when-where.empty {
+    float: left;
   }
 }
 #prev-year-recap-section {
