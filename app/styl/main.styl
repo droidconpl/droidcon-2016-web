@@ -7,10 +7,50 @@ body
   padding 0
   width 100%
   height 100%
-
-// VARIABLES
+body
+  font-family "nerislight", Helvetica, Arial, sans-serif
+  font-size 16px
 
 // GLOBAL STYLES
+.section
+  padding-top 20px
+  padding-bottom 40px
+  font-family "nerislight", Helvetica, Arial, sans-serif
+  font-size 16px
+  @media md
+    font-size 18px
+
+.section-title
+  text-align center
+  margin-bottom 30px
+  h2.main-title
+    font-weight 500
+    font-family "nerisblack", Helvetica, Arial, sans-serif
+    font-size 25px
+
+.section-subtitle
+  text-align center
+  font-family "nerisblack", Helvetica, Arial, sans-serif
+  font-size 20px
+
+.section-paragraph
+  max-width 320px
+  margin 0 auto
+  text-align center
+  @media md
+    max-width 420px
+
+.float-right
+  float right
+.float-left
+  float left
+
+.link
+  text-decoration underline
+  color inherit
+  &:hover
+    color inherit
+
 .green-button
   width 150px
   height 50px
@@ -21,15 +61,16 @@ body
   font-family 'nerissemibold', sans-serif
   font-size 16px
   transition background-color 0.3s ease
+  border none
   &:hover, &:active, &:focus
     background-color #7CC900
     text-decoration none
     color white
 
-
+// MAIN PAGE STYLES
 #background-image
   background-image url("../img/bg-02.jpg")
-  min-height 100%
+  height 100%
   -moz-background-size cover
   -webkit-background-size cover
   background-size cover
@@ -46,6 +87,8 @@ body
     left 0
     right 0
     margin auto
+    @media md
+      max-width 900px
   a
     position absolute
     top 250px
@@ -53,3 +96,59 @@ body
     left 0
     right 0
     margin auto
+
+#join-us-section
+  background-color colLight
+  color colDark
+
+  .when-where
+    margin 20px auto 0
+    max-width 315px
+    display table
+    img
+      width 40px
+      margin-right 20px
+      display table-cell
+      vertical-align middle
+    p
+      display table-cell
+      vertical-align middle
+    &.empty
+      width 315px
+      p
+        width 100%
+    @media md
+      margin-top 20px
+      max-width 350px
+
+
+
+#prev-year-recap-section
+  background-color colWhite
+  color colDark
+
+  #youtube-iframe
+    border none
+    margin 0 auto
+    display block
+
+#be-part-of-it
+  background-color colGreen
+  color colWhite
+  text-align center
+
+  img
+    width 80px
+    height auto
+    margin-top 50px
+    margin-bottom 20px
+  .section-paragraph
+    width 280px
+
+#sponsor-us-section
+  background-color colLight
+  color colDark
+
+#contact-section
+  background-color colGreen
+  color colWhite
