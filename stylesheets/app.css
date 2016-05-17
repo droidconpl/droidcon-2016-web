@@ -4544,6 +4544,11 @@ body {
   font-family: "nerislight", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
+@media (min-width: 992px) {
+  .section {
+    font-size: 18px;
+  }
+}
 .section-title {
   text-align: center;
   margin-bottom: 30px;
@@ -4563,6 +4568,24 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+@media (min-width: 992px) {
+  .section-paragraph {
+    max-width: 420px;
+  }
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.link {
+  text-decoration: underline;
+  color: inherit;
+}
+.link:hover {
+  color: inherit;
+}
 .green-button {
   width: 150px;
   height: 50px;
@@ -4573,6 +4596,7 @@ body {
   font-family: 'nerissemibold', sans-serif;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  border: none;
 }
 .green-button:hover,
 .green-button:active,
@@ -4602,6 +4626,11 @@ body {
   right: 0;
   margin: auto;
 }
+@media (min-width: 992px) {
+  #background-image img {
+    max-width: 900px;
+  }
+}
 #background-image a {
   position: absolute;
   top: 250px;
@@ -4613,9 +4642,6 @@ body {
 #join-us-section {
   background-color: #eeedec;
   color: #1f1f1f;
-}
-#join-us-section #global-logo {
-  max-height: 80px;
 }
 #join-us-section .when-where {
   margin: 20px auto 0;
@@ -4637,6 +4663,12 @@ body {
 }
 #join-us-section .when-where.empty p {
   width: 100%;
+}
+@media (min-width: 992px) {
+  #join-us-section .when-where {
+    margin-top: 20px;
+    max-width: 350px;
+  }
 }
 #prev-year-recap-section {
   background-color: #fff;
@@ -4661,8 +4693,12 @@ body {
 #be-part-of-it .section-paragraph {
   width: 280px;
 }
+#sponsor-us-section {
+  background-color: #eeedec;
+  color: #1f1f1f;
+}
 #contact-section {
-  background-color: #1f1f1f;
+  background-color: #6eb300;
   color: #fff;
 }
 
