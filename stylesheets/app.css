@@ -11323,7 +11323,12 @@ body {
 .section-title h2.main-title {
   font-weight: 500;
   font-family: "nerisblack", Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 24px;
+}
+@media (min-width: 992px) {
+  .section-title h2.main-title {
+    font-size: 26px;
+  }
 }
 .section-subtitle {
   text-align: center;
@@ -11332,8 +11337,13 @@ body {
 }
 .section-paragraph {
   max-width: 320px;
-  margin: 0 auto;
+  margin: 5px auto 10px;
   text-align: center;
+}
+@media (min-width: 461px) {
+  .section-paragraph {
+    max-width: 360px;
+  }
 }
 @media (min-width: 992px) {
   .section-paragraph {
@@ -11491,6 +11501,11 @@ body {
 #about-section .when-where.empty p {
   width: 100%;
 }
+@media (min-width: 461px) {
+  #about-section .when-where {
+    max-width: 340px;
+  }
+}
 @media (min-width: 992px) {
   #about-section .when-where {
     margin-top: 20px;
@@ -11507,8 +11522,14 @@ body {
 }
 #prev-year-recap-section #youtube-iframe {
   border: none;
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
+}
+@media (min-width: 992px) {
+  #prev-year-recap-section #youtube-iframe {
+    width: 560px !important;
+    height: 349px !important;
+  }
 }
 #be-part-of-it {
   background-color: #6eb300;
