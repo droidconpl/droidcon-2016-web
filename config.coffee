@@ -43,8 +43,8 @@ exports.config =
       joinTo:
         'stylesheets/app.css': /^(app|vendor)/
       order:
-        before: []
-        after: ['vendor/styles/bootstrap/bootstrap.less']
+        before: ['vendor/styles/bootstrap/bootstrap.less']
+        after: []
 
     # Ensure that our jade templates don't get compiled into our app JS.
     templates:
