@@ -4,7 +4,64 @@ footer-height = 30px
   background-color #4D4D4D
   color #EEEDEC
   text-align center
-  font-family "nerislight", Helvetica, Arial, sans-serif
+  font-family "neristhin", Helvetica, Arial, sans-serif
   padding 5px 0
   min-height footer-height
+  @media sm
+    text-align left
+  @media md
+    font-size 18px
+    padding 15px 0
 
+  .footer-column
+    margin-top 20px
+  .footer-header
+    font-weight 700
+  .footer-list
+    font-family "neristhin", Helvetica, Arial, sans-serif
+    list-style none
+    margin-top 10px
+    padding 0
+    font-size 14px
+    @media md
+      font-size 16px
+    li
+      margin-top 5px
+
+  .social-icons
+    @media sm
+      text-align right
+      float right
+
+    .social-img
+      height 30px
+      margin 0 15px
+      @media sm
+        margin 0 10px
+      @media md
+        margin 0 20px
+
+  #underline
+    width 100%
+    border-bottom 1px solid white
+    margin 30px 0 30px
+
+  #global-reference
+    text-align left
+    img
+      height 80px
+      float right
+      @media sm
+        float none
+      @media md
+        height 90px
+    p
+      height 70px
+      margin 5px 0
+      max-width 200px
+
+  #copyright-span
+    margin-top 30px
+    text-align center
+    @media md
+      margin-top 40px

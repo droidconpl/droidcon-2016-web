@@ -22,7 +22,7 @@ exports.config =
         'javascripts/vendor.js': /^vendor/
       order:
         before: [
-          'vendor/scripts/jquery-2.1.4.min.js'
+          'vendor/scripts/jquery-2.1.4.min.js',
           # Twitter Bootstrap jquery plugins
           'vendor/scripts/bootstrap/transition.js',
           'vendor/scripts/bootstrap/affix.js',
@@ -43,7 +43,9 @@ exports.config =
       joinTo:
         'stylesheets/app.css': /^(app|vendor)/
       order:
-        before: ['vendor/styles/bootstrap/bootstrap.less']
+        before: [
+          'vendor/styles/bootstrap/bootstrap.less'
+        ]
         after: []
 
     # Ensure that our jade templates don't get compiled into our app JS.
