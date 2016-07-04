@@ -2,10 +2,12 @@ $(document).ready(function() {
 
     //timer function
     $(function(){
-        var d = new Date();
-        d.setTime(1480572000*1000); // from: 12/01/2016 08:00 am +0200
+        var d = new Date("December 8, 2016 08:00:00");
         $('.clock-builder-output').countdown(d, function(event) {
-            $(this).html(event.strftime('%D days %H:%M:%S'));
+            $("#days").html(event.strftime('%D'));
+            $("#hours").html(event.strftime('%H'));
+            $("#minutes").html(event.strftime('%M'));
+            $("#seconds").html(event.strftime('%S'));
         });
     });
 
@@ -42,4 +44,3 @@ $(document).ready(function() {
     }
 
 });
-
