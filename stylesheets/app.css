@@ -11413,7 +11413,8 @@ button.swiper-pagination-bullet {
 }
 .section-paragraph {
   max-width: 320px;
-  margin: 5px auto 10px;
+  margin: 0 auto;
+  padding: 5px 0 10px;
   text-align: center;
 }
 @media xs {
@@ -11425,6 +11426,9 @@ button.swiper-pagination-bullet {
   .section-paragraph {
     max-width: 420px;
   }
+}
+.button-paragraph {
+  min-height: 100px;
 }
 .float-right {
   float: right;
@@ -11453,7 +11457,7 @@ button.swiper-pagination-bullet {
   text-decoration: none;
 }
 .green-button {
-  width: 150px;
+  min-width: 200px;
   height: 50px;
   text-align: center;
   padding: 13px 25px;
@@ -11463,11 +11467,31 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   transition: background-color 0.3s ease;
   border: none;
+  display: inline-table;
 }
 .green-button:hover,
 .green-button:active,
 .green-button:focus {
   background-color: #7cc900;
+  text-decoration: none;
+  color: #fff;
+}
+.black-button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 13px 25px;
+  background-color: colDark;
+  color: colWhite;
+  font-family: 'nerissemibold', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.black-button:hover,
+.black-button:active,
+.black-button:focus {
   text-decoration: none;
   color: #fff;
 }
@@ -11505,7 +11529,8 @@ button.swiper-pagination-bullet {
 }
 .section-paragraph {
   max-width: 320px;
-  margin: 5px auto 10px;
+  margin: 0 auto;
+  padding: 5px 0 10px;
   text-align: center;
 }
 @media (min-width: 461px) {
@@ -11517,6 +11542,9 @@ button.swiper-pagination-bullet {
   .section-paragraph {
     max-width: 420px;
   }
+}
+.button-paragraph {
+  min-height: 100px;
 }
 .float-right {
   float: right;
@@ -11545,7 +11573,7 @@ button.swiper-pagination-bullet {
   text-decoration: none;
 }
 .green-button {
-  width: 150px;
+  min-width: 200px;
   height: 50px;
   text-align: center;
   padding: 13px 25px;
@@ -11555,11 +11583,31 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   transition: background-color 0.3s ease;
   border: none;
+  display: inline-table;
 }
 .green-button:hover,
 .green-button:active,
 .green-button:focus {
   background-color: #7cc900;
+  text-decoration: none;
+  color: #fff;
+}
+.black-button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 13px 25px;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-family: 'nerissemibold', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.black-button:hover,
+.black-button:active,
+.black-button:focus {
   text-decoration: none;
   color: #fff;
 }
@@ -11842,6 +11890,10 @@ body {
     width: 560px !important;
     height: 349px !important;
   }
+}
+#call-4-paper-section {
+  background-color: #1f1f1f;
+  color: #fff;
 }
 #be-part-of-it {
   background-color: #6eb300;
