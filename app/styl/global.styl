@@ -24,12 +24,16 @@
 
 .section-paragraph
   max-width 320px
-  margin 5px auto 10px
+  margin 0 auto
+  padding 5px 0 10px
   text-align center
   @media xs
     max-width 360px
   @media md
     max-width 420px
+
+.button-paragraph
+  min-height 100px
 
 .float-right
   float right
@@ -55,7 +59,7 @@
     text-decoration none
 
 .green-button
-  width 150px
+  min-width 200px
   height 50px
   text-align center
   padding 13px 25px
@@ -65,7 +69,24 @@
   font-size 16px
   transition background-color 0.3s ease
   border none
+  display inline-table
   &:hover, &:active, &:focus
     background-color #7CC900
+    text-decoration none
+    color white
+
+.black-button
+  width 150px
+  height 50px
+  text-align center
+  padding 13px 25px
+  background-color colDark
+  color colWhite
+  font-family 'nerissemibold', sans-serif
+  font-size 16px
+  transition background-color 0.3s ease
+  border none
+  cursor pointer
+  &:hover, &:active, &:focus
     text-decoration none
     color white
