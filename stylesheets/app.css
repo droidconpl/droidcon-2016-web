@@ -11789,7 +11789,7 @@ body {
 }
 @media (min-width: 992px) {
   #about-section {
-    min-height: 35vh;
+    min-height: 30vh;
   }
 }
 #about-section .when-where {
