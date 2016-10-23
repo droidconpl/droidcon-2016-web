@@ -1,0 +1,69 @@
+{
+    "partners": [
+        {
+            "partnerName": "GDG Warszawa",
+            "partnerUrl": "https://plus.google.com/+GdgWarszawaPl/posts",
+            "partnerLogo": "img/partners/gdg-warsaw-logo.png"
+        },
+        {
+            "partnerName": "Mobilization",
+            "partnerUrl": "http://2015.mobilization.pl/",
+            "partnerLogo": "img/partners/mobilization-logo.png"
+        },
+        {
+            "partnerName": "Poznań Android Developer Group",
+            "partnerUrl": "http://www.meetup.com/Poznan-Android-Developer-Group/",
+            "partnerLogo": "img/partners/adg-logo.png"
+        },
+        {
+            "partnerName": "Warsaw Java User Group",
+            "partnerUrl": "http://warszawa.jug.pl/",
+            "partnerLogo": "src/img/partners/wjug-logo.png"
+        },
+        {
+            "partnerName": "GDG Kraków",
+            "partnerUrl": "https://plus.google.com/u/0/+GDGKrakowPlus/posts",
+            "partnerLogo": "src/img/partners/gdg-krakow-logo.png"
+        },
+        {
+            "partnerName": "Hackerspace Kraków",
+            "partnerUrl": "http://hackerspace-krk.pl/",
+            "partnerLogo": "src/img/partners/hackerspace-krakow-logo.png"
+        },
+        {
+            "partnerName": "Android Developers Backstage",
+            "partnerUrl": "http://www.adbkrk.pl/",
+            "partnerLogo": "src/img/partners/adb-logo.png"
+        },
+        {
+            "partnerName": "Polish Java User Group",
+            "partnerUrl": "http://www.java.pl/",
+            "partnerLogo": "src/img/partners/pjug-logo.png"
+        },
+        {
+            "partnerName": "Hackathon Lovers",
+            "partnerUrl": "http://hackathonlovers.com/",
+            "partnerLogo": "src/img/partners/hackathon-lovers-logo.png"
+        },
+        {
+            "partnerName": "GDG DevFest Ukraine",
+            "partnerUrl": "http://devfest.gdg.org.ua/",
+            "partnerLogo": "src/img/partners/gdg-devfest-ukraine-logo.png"
+        },
+        {
+            "partnerName": "Mobile Warsaw",
+            "partnerUrl": "http://www.meetup.com/Mobile-Warsaw/",
+            "partnerLogo": "src/img/partners/mobile-warsaw-logo.png"
+        },
+        {
+            "partnerName": "Mobile Central Europe",
+            "partnerUrl": "http://mceconf.com/",
+            "partnerLogo": "src/img/partners/mce-logo.png"
+        },
+        {
+            "partnerName": "GDG Dnipropetrovs'k",
+            "partnerUrl": "https://plus.google.com/116033068768596939209/posts",
+            "partnerLogo": "src/img/partners/gdg-dnipropetrovsk-logo.png"
+        }
+    ]
+}
