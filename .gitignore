@@ -27,10 +27,10 @@ testem.log
 /typings
 /app/*.js
 /app/*.js.map
-#/app/**/*.js
-#/app/**/*.js.map
-#/*.js
-#/*.js.map
+/app/**/*.js
+/app/**/*.js.map
+/*.js
+/*.js.map
 
 # e2e
 /e2e/*.js
